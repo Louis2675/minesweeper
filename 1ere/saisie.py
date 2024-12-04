@@ -16,3 +16,11 @@ def saisie_creuser(TAILLE_GRILLE):
     if coordonees[0] < 0 or coordonees[0] >= TAILLE_GRILLE or coordonees[1] < 0 or coordonees[1] >= TAILLE_GRILLE:
         print("Coordonnees trop extremes")
         return saisie_creuser(TAILLE_GRILLE)
+    
+
+def saisie_etat():
+    saisie = input('Entrez votre choix : ')
+    if saisie not in ['c', 'f', 'b']:
+        print("Veuillez entrer 'c' pour les cases creusees, 'f' pour les cases marquees ou 'b' pour les cases contenant des bombes")
+        return saisie_etat()
+    return saisie

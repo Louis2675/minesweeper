@@ -1,6 +1,8 @@
-## Coquilles sur l'enoncé?
+## Potentielles modifications sur l'enoncé
 
 - Dans l'instruction 3, il y a un bullet point de trop.
+- Dans l'instruction 4, il manque un point au sein de la description de la fonction decouvrir avant le "Dans".
+- Dans l'instruction 5, la phrase n'est pas terminée.
 - Dans consignes et évaluation, on a " Le code source devra être nommé au format prenom1_prenom2_yahtzee" alors que le nom du fichier doit être "prenom1_prenom2_demineur" et de meme pour l'objet du mail.
 
 ## Commentaires sur le projet
